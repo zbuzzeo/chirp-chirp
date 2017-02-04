@@ -1,23 +1,29 @@
 Exercise_8
 ==========
 
-#Recursion (part 2) exercise
+#Recursion Exercise
 
 ##Chirp
 
-run chirp.html  
-edit js/chirp.js
+### Getting started
+* Run `live-server`
+* Open your browser to [http://127.0.0.1:8080/chirp.html](http://127.0.0.1:8080/chirp.html)
+* Edit `js/chirp.js`
+* Make your tests pass :tada:
 
-- define a function named chirp() that takes a single argument 'n'
-- calling chirp(3) will return the text "chirp chirp chirp"
+- Define a function named chirp() that takes a single argument 'n'
+- Calling chirp(3) will return the text "chirp chirp chirp"
 - chirp will call itself, each time returning "chirp "
 
 
 ##Letter counter
 
-run letters.html  
-edit js/letters.js
+### Getting started
+* Run `live-server`
+* Open your browser to [http://127.0.0.1:8080/letters.html](http://127.0.0.1:8080/letters.html)
+* Edit `js/letters.js`
+* Make your tests pass :tada:
 
-- define a function named countLetters() that takes two arguments 'counter' and 'text'
-- calling countLetters(counter, sample_text) will populate the counter object with a count of how many times letters occur
+- Define a function named countLetters() that takes two arguments 'counter' and 'text'
+- Calling countLetters(counter, sample_text) will populate the counter object with a count of how many times letters occur
 - countLetters will call itself until all letters are counted
