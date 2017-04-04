@@ -1,9 +1,6 @@
-Exercise_8
-==========
+# Recursion Exercise
 
-#Recursion Exercise
-
-##Chirp
+## Chirp
 
 ### Getting started
 * Run `live-server`
@@ -17,7 +14,7 @@ Exercise_8
 - chirp will call itself, each time returning "chirp "
 
 
-##Letter counter
+## Letter counter
 
 ### Getting started
 * Run `live-server`
