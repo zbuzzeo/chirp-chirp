@@ -16,18 +16,17 @@ var counter = {
 }
 
 function countLetters(counter, sample_text){
-  const currentChar = sample_text.charAt(0).toLowerCase();
-  
   if (sample_text.length === 0) {
     return counter;
   }
+
+  const currentChar = sample_text.charAt(0).toLowerCase();
 
   if (counter.hasOwnProperty(currentChar)) {
     counter[currentChar]++;
   }
   // after doing things with the first letter, call the function again with the first letter sliced off of the string.
   countLetters(counter, sample_text.slice(1));
-  
 }
 
 $(document).ready(function(){
